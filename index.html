@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <title>Memory Card Game</title>
+</head>
+<body>
+    <!-- Add a graphic or illustration -->
+    <div class="game-header">
+        <button id="startButton">Start Game</button>
+        <audio id="flipSound" src="flip-sound.mp3" preload="auto"></audio>
+        <audio id="weeeSound" src="weee-sound.mp3" preload="auto"></audio>
+        <img src="kids-matching-pairs-icon.png" alt="Kids Matching Pairs Icon">
+        <h1>Kids Matching Pairs Game</h1>
+    </div>
+
+    <div class="memory-game">
+        <!-- Cards will be dynamically generated here -->
+    </div>
+    
+    <!-- Add this div for the congratulatory message -->
+    <div class="congratulations" style="display: none;">
+        <h2>Congratulations!</h2>
+        <p>You matched all pairs!</p>
+        <button id="playAgainButton">Play Again</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
